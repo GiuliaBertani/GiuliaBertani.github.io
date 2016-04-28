@@ -1,0 +1,26 @@
+.me {
+	background-color: #FF6600;	
+	color: white;
+	text-align: center;
+	width:15%; 
+	margin-left:42.5%;
+	border-radius: 10px;
+	margin-top: 15%;
+}
+.me h1{
+	font-family: helvetica, arial, sans-serif,
+	margin-bottom:0;
+}
+.me h3{
+	margin-top: 0;
+}
+.hero{
+	overflow: hidden;
+	background-image: url("http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_foto_immagini_royalty_free_uso_commerciale/mela_rossa_libri_cultura.jpg");	
+	height:325px; 
+	width: 100%;
+	background-position: left bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 0;
+ }
