@@ -1,26 +1,45 @@
-.me {
-	background-color: #FF6600;	
-	color: white;
+
+.wrapper{
+	display: flex;
+}
+.profilo{
+	display: inline;
+	width: 225px;
+}
+.me{
+	margin-left:0;
+}
+.me h2{
+
+	font-family: helvetica, arial, sans-serif;
 	text-align: center;
-	width:15%; 
-	margin-left:42.5%;
-	border-radius: 10px;
-	margin-top: 15%;
 }
-.me h1{
-	font-family: helvetica, arial, sans-serif,
-	margin-bottom:0;
-}
-.me h3{
-	margin-top: 0;
+.me p{
+	font-family: helvetica,arial,sans-serif;
+	text-align: justify;
 }
 .hero{
-	overflow: hidden;
-	background-image: url("http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_foto_immagini_royalty_free_uso_commerciale/mela_rossa_libri_cultura.jpg");	
-	height:325px; 
-	width: 100%;
-	background-position: left bottom;
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding-top: 0;
- }
+	background-color: lavenderblush;
+	background-position: center;
+	margin-left: 0;
+	width: 25%;
+
+}
+.titoli{
+	font-family: helvetica, arial, sans-serif;
+	font-weight: 700;
+	background-color: paleturquoise;
+	margin-left: 1%
+}
+li{
+	list-style: none;
+	margin-top: 5%;
+	margin-bottom:3%;
+}
+.element{
+	font-weight: normal;
+	margin-left: 10%;
+}
+.description{
+	font-weight: normal;
+}
