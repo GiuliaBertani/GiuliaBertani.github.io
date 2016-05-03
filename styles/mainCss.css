@@ -1,66 +1,91 @@
-
-body{
-	margin: 0;
-}
-.wrapper{
-	display: flex;
-	margin-left: 1%;
-	margin-right:1%;
-}
-.menu{
-	margin-top: 0;
-	display: block;
-	background-color: #2196F3;
-	background-image: fixed;
-}
-.menu h2{
-	font-family: 'Roboto', sans-serif;
+nav.navbar.navbar-default.navbar-fixed-top{
 	text-align: center;
-	color: white;
+	color:white;
+	background-color:#30CBF7;
+	height: 70px;
+}
+
+div.container h3{
 	font-weight: 700;
-	margin:0;
-	padding-top: 1%;
+	height: 30px;
+	margin-bottom: 0;
 }
-.menu ul{
-	background-color: #056CC5;
-}
-.menu li{
-	list-style: none;
+div.container p{
 	display: inline;
+	height: 15px;
 }
-.profilo{
-	display: inline;
-	width: 225px;
-}
+
+.glyphicon-earphone:before{
+	margin-left: 100px;
+	float: left;
+}	
 .me{
-	margin-left:0;
-}
-.me h2{
 
-	font-family: helvetica, arial, sans-serif;
-	text-align: center;
-}
-.me p{
-	font-family: helvetica,arial,sans-serif;
-	text-align: justify;
-}
-.hero{
-	background-color: lavenderblush;
+	background-image: url(http://40.media.tumblr.com/0b7327140d6fbf180e3f4f8921d2ece1/tumblr_o0spc27kSv1v3htmao1_1280.jpg);
+	background-repeat: no-repeat;
 	background-position: center;
-	margin-left: 0;
-	width: 25%;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 300px;
+    -webkit-transition: .5s;
+    transition: .5s;
+    overflow: hidden;
+    margin-top: 70px;
+}
+.me .slider {
+    position: relative;
+    top: 0;
+    height: 200%;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.me .slider:hover {
+    top: -100%;
+}
+
+.me .slider .content {
+    text-align: center;
+    color:white;
+    top: 75%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.me.slider .upper-block,
+.me .slider .lower-block {
+     height: 50%;
+     position: relative;
+     margin: 0;
+     padding: 0;
+}
+.me .slider .upper-block{
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.panel-default{
+	margin-top: 8%;
+		
+}
+div.panel.panel-default{
+	border-radius: 30px;
+	width: 75%;
+	position: relative;
+	left:12.5%;
 
 }
-.titoli{
-	font-family: helvetica, arial, sans-serif;
+div.p-heading{    
+	background-color: lightblue;
+	color: black;
+    border-color: #ddd;
+    text-align: center;
+    shape-margin: 100px;
+    border-radius: 0;
+    height: 40px;
+}
+div.p-heading h3{
+	text-align: center;
+	padding-top: 10px;
 	font-weight: 700;
-	background-color: paleturquoise;
-	margin-left: 1%
-}
-.element{
-	font-weight: normal;
-	margin-left: 10%;
-}
-.description{
-	font-weight: normal;
 }
