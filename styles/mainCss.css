@@ -4,6 +4,15 @@ nav.navbar.navbar-default.navbar-fixed-top{
 	background-color:#30CBF7;
 	height: 70px;
 }
+.DatiPersonali{
+	display: flex;
+}
+img.DP{
+	height: 300px;
+	width:400px;
+	border-radius: 100px;
+	margin-top: 4%;
+}
 
 div.container h3{
 	font-weight: 700;
@@ -64,15 +73,13 @@ div.container p{
 .me .slider .upper-block{
     background-color: rgba(0, 0, 0, 0.25);
 }
-.panel-default{
-	margin-top: 8%;
-		
-}
+
 div.panel.panel-default{
 	border-radius: 30px;
 	width: 75%;
 	position: relative;
 	left:12.5%;
+	margin-bottom: 8%
 
 }
 div.p-heading{    
@@ -88,4 +95,8 @@ div.p-heading h3{
 	text-align: center;
 	padding-top: 10px;
 	font-weight: 700;
+}
+div.panel.panel-default.profile{
+	width: 8%;
+	height: 200px;
 }
