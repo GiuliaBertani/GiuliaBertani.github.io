@@ -1,17 +1,15 @@
-nav.navbar.navbar-default.navbar-fixed-top{
-	text-align: center;
-	color:white;
-	background-color:#30CBF7;
-	height: 70px;
+body{
+	overflow-x: hidden;
 }
-.DatiPersonali{
-	display: flex;
+
+.row{
+  margin-top: 5%;	
 }
+
 img.DP{
-	height: 300px;
-	width:400px;
-	border-radius: 100px;
+	height: 200px;
 	margin-top: 4%;
+	border-radius: 300px;
 }
 
 div.container h3{
@@ -39,7 +37,7 @@ div.container p{
     -webkit-transition: .5s;
     transition: .5s;
     overflow: hidden;
-    margin-top: 70px;
+	margin-top: 0;
 }
 .me .slider {
     position: relative;
@@ -76,12 +74,8 @@ div.container p{
 
 div.panel.panel-default{
 	border-radius: 30px;
-	width: 75%;
-	position: relative;
-	left:12.5%;
-	margin-bottom: 8%
-
 }
+
 div.p-heading{    
 	background-color: lightblue;
 	color: black;
@@ -97,6 +91,13 @@ div.p-heading h3{
 	font-weight: 700;
 }
 div.panel.panel-default.profile{
-	width: 8%;
 	height: 200px;
+}
+
+.offset{
+	margin-left: 4%;
+}
+
+.pl{
+	width: 75%;
 }
