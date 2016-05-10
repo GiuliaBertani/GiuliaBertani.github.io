@@ -2,6 +2,12 @@ body{
 	overflow-x: hidden;
 }
 
+nav.navbar.navbar-default{
+	margin-bottom: 0;
+	background-color: lightblue;
+    font-weight: 700;
+
+}
 .row{
   margin-top: 5%;	
 }
@@ -33,7 +39,7 @@ div.container p{
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
-	height: 300px;
+	height: 400px;
     -webkit-transition: .5s;
     transition: .5s;
     overflow: hidden;
@@ -100,4 +106,48 @@ div.panel.panel-default.profile{
 
 .pl{
 	width: 75%;
+}
+.ContactUs{
+  margin-bottom: 0;
+  padding: 3%;
+  background-color: lightblue;
+  text-align: center;
+}
+.ContactUs h1{
+    color:white;
+    margin-bottom: 2%;
+  }
+.ContactUs form{
+    margin-bottom: 0px;
+  }
+ .ContactUs input{
+    margin: 3%;
+  }
+ .ContactUs textarea{
+    width: 300px;
+    height: 160px;
+  }
+.ContactUs  button{
+    margin-top: -40px;
+  }
+
+
+@media (max-width: 1200px) {
+
+  form{
+    padding-left: 85px;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+   form{
+     padding-right: 30px;
+     padding-left: 0px;
+   }
+   textarea{
+     margin-bottom: 30px;
+   }
+
 }
