@@ -8,6 +8,7 @@ nav.navbar.navbar-default{
     font-weight: 700;
 
 }
+
 .row{
   margin-top: 5%;	
 }
@@ -88,8 +89,12 @@ div.p-heading{
     border-color: #ddd;
     text-align: center;
     shape-margin: 100px;
-    border-radius: 0;
-    height: 40px;
+	height: 40px;
+}
+div.panel.panel-default.col-md-10.col-md-push-1{
+	padding-left: 0;
+	padding-right: 0;
+	border-radius: 30px;
 }
 div.p-heading h3{
 	text-align: center;
@@ -106,48 +111,4 @@ div.panel.panel-default.profile{
 
 .pl{
 	width: 75%;
-}
-.ContactUs{
-  margin-bottom: 0;
-  padding: 3%;
-  background-color: lightblue;
-  text-align: center;
-}
-.ContactUs h1{
-    color:white;
-    margin-bottom: 2%;
-  }
-.ContactUs form{
-    margin-bottom: 0px;
-  }
- .ContactUs input{
-    margin: 3%;
-  }
- .ContactUs textarea{
-    width: 300px;
-    height: 160px;
-  }
-.ContactUs  button{
-    margin-top: -40px;
-  }
-
-
-@media (max-width: 1200px) {
-
-  form{
-    padding-left: 85px;
-  }
-
-}
-
-@media (max-width: 767px) {
-
-   form{
-     padding-right: 30px;
-     padding-left: 0px;
-   }
-   textarea{
-     margin-bottom: 30px;
-   }
-
 }
